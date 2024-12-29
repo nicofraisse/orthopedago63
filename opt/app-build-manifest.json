@@ -1,0 +1,44 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-05cc406d6a87b1a9.js",
+      "static/chunks/4bd1b696-20882bf820444624.js",
+      "static/chunks/517-2c39ce28bcba308e.js",
+      "static/chunks/main-app-9b2dcba2fc237b03.js",
+      "static/chunks/app/_not-found/page-0043d75de3bc49f5.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-05cc406d6a87b1a9.js",
+      "static/chunks/4bd1b696-20882bf820444624.js",
+      "static/chunks/517-2c39ce28bcba308e.js",
+      "static/chunks/main-app-9b2dcba2fc237b03.js",
+      "static/css/8e59e6e631f28054.css",
+      "static/chunks/970-e2f6787501588a87.js",
+      "static/chunks/app/layout-5e4f0c69b439a833.js"
+    ],
+    "/orthopedagogie/page": [
+      "static/chunks/webpack-05cc406d6a87b1a9.js",
+      "static/chunks/4bd1b696-20882bf820444624.js",
+      "static/chunks/517-2c39ce28bcba308e.js",
+      "static/chunks/main-app-9b2dcba2fc237b03.js",
+      "static/chunks/970-e2f6787501588a87.js",
+      "static/chunks/app/orthopedagogie/page-12f9cc32fb0034a5.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-05cc406d6a87b1a9.js",
+      "static/chunks/4bd1b696-20882bf820444624.js",
+      "static/chunks/517-2c39ce28bcba308e.js",
+      "static/chunks/main-app-9b2dcba2fc237b03.js",
+      "static/chunks/970-e2f6787501588a87.js",
+      "static/chunks/app/contact/page-588a4256ec2e7adb.js"
+    ],
+    "/le-cabinet/page": [
+      "static/chunks/webpack-05cc406d6a87b1a9.js",
+      "static/chunks/4bd1b696-20882bf820444624.js",
+      "static/chunks/517-2c39ce28bcba308e.js",
+      "static/chunks/main-app-9b2dcba2fc237b03.js",
+      "static/chunks/970-e2f6787501588a87.js",
+      "static/chunks/app/le-cabinet/page-600ee508cb2f53d3.js"
+    ]
+  }
+}

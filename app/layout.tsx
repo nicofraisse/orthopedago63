@@ -36,6 +36,16 @@ export default function RootLayout({
         >
           {children}
         </div>
+        <footer className="bg-gray-100 py-4 text-center">
+          <p>© {new Date().getFullYear()} Orthopédagogie 63</p>
+          <p>Maryline Cailly-Moins</p>
+          <p>Adresse : 5 rue des roses, 75200 Paris</p>
+          <p>
+            Mail:
+            <a href="mailto:example@gmail.com">:example@gmail.com</a>
+          </p>
+          <p>Tel: 06 99 99 99 99</p>
+        </footer>
       </body>
     </html>
   );

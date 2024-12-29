@@ -1,0 +1,7 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/orthopedagogie/page": "app/orthopedagogie/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/le-cabinet/page": "app/le-cabinet/page.js"
+}
