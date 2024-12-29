@@ -2,7 +2,7 @@ import { getMarkdownContent } from "@/lib/markdown";
 import Image from "next/image";
 
 export default async function HomePage() {
-  const { frontmatter, contentHtml } = await getMarkdownContent(
+  const { frontmatter } = await getMarkdownContent(
     "content/pages/orthopedagogie.md"
   );
 
