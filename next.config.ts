@@ -1,7 +1,14 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  async rewrites() {
+    return [
+      {
+        source: "/",
+        destination: "/orthopedagogie",
+      },
+    ];
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
