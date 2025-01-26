@@ -5,14 +5,12 @@
     <title>Site Admin</title>
   </head>
   <body>
-    <!-- Load the Decap (Netlify) CMS script from unpkg or a CDN -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 
-    <!-- Point to config file -->
     <script>
       window.CMS_MANUAL_INIT = true;
       window
-        .fetch("/admin/config.yml")
+        .fetch("/admin/config.yaml")
         .then((response) => response.text())
         .then((config) => {
           window.NetlifyCms.init({ config });

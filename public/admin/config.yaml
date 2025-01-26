@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
-  branch: main # The branch Netlify CMS will commit to
+  branch: main
 
-media_folder: "public/uploads" # Where uploaded images go in the repo
-public_folder: "/uploads" # The URL that the browser uses
+media_folder: "public/uploads"
+public_folder: "/uploads"
 
 collections:
   - name: "pages"
