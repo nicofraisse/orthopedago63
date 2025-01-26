@@ -10,7 +10,7 @@
     <script>
       window.CMS_MANUAL_INIT = true;
       window
-        .fetch("/admin/config.yaml")
+        .fetch("/admin/config.yml")
         .then((response) => response.text())
         .then((config) => {
           window.NetlifyCms.init({ config });
