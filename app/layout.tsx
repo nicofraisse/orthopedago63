@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <Header />
 
-        <div className="max-w-3xl mx-auto pt-7 pb-20 px-5">{children}</div>
+        <div className="max-w-4xl mx-auto pt-7 pb-20 px-5">{children}</div>
 
         <footer className="bg-white py-8 border-t border-gray-200 mt-10">
           <div className="max-w-4xl mx-auto px-5">

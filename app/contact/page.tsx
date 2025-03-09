@@ -117,7 +117,7 @@ export default async function ContactPage() {
                     <textarea
                       id="message"
                       name="message"
-                      rows="5"
+                      rows={5}
                       className="border border-gray-300 rounded-lg py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
                       placeholder="Décrivez votre demande ou vos questions..."
                     ></textarea>
