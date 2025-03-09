@@ -92,8 +92,8 @@ export const Heading = ({
   return <div className={wrapperClass}>{headingElement}</div>;
 };
 
-function getColorFromClass(colorClass) {
-  const colorMap = {
+function getColorFromClass(colorClass: string): string {
+  const colorMap: Record<string, string> = {
     "bg-blue-200": "rgba(191, 219, 254, 0.7)",
     "bg-blue-300": "rgba(147, 197, 253, 0.7)",
     "bg-blue-400": "rgba(96, 165, 250, 0.7)",
