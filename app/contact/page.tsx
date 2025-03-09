@@ -4,11 +4,7 @@ import Heading, { HeadingTag } from "@/components/heading";
 import { Mail, Phone, User, MessageSquare } from "react-feather";
 
 export default async function ContactPage() {
-  const { frontmatter, contentHtml } = await getMarkdownContent(
-    "content/pages/contact.md"
-  );
-
-  const { title, hero } = frontmatter;
+  const { contentHtml } = await getMarkdownContent("content/pages/contact.md");
 
   return (
     <main className="min-h-screen">
@@ -30,8 +26,8 @@ export default async function ContactPage() {
         <section className="mb-16">
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
             <p className="text-lg text-gray-700 mb-8 text-center">
-              Besoin d'un accompagnement orthopédagogique pour votre enfant ou
-              d'en savoir plus sur mes services? Laissez-moi un message
+              Besoin d&apos;un accompagnement orthopédagogique pour votre enfant
+              ou d&apos;en savoir plus sur mes services? Laissez-moi un message
               ci-dessous et je vous répondrai dans les meilleurs délais.
             </p>
 

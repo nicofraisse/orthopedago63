@@ -1,4 +1,3 @@
-import { Avatar } from "@/components/avatar";
 import Heading, { HeadingTag } from "@/components/heading";
 import { getMarkdownContent } from "@/lib/markdown";
 import Image from "next/image";
@@ -35,7 +34,7 @@ export default async function HomePage() {
         {/* Hero Section */}
         <section className="text-center mb-16 mt-4">
           <Heading tag={HeadingTag.H1}>
-            L'orthopédagogie au service de l'apprenant
+            L&apos;orthopédagogie au service de l&apos;apprenant
           </Heading>
           {hero && (
             <div className="w-full mb-8">
@@ -62,7 +61,7 @@ export default async function HomePage() {
               <ul className="list-disc pl-5 space-y-2 text-lg">
                 <li>
                   <span className="font-semibold">
-                    mieux apprendre à l'école, au collège, au lycée
+                    mieux apprendre à l&apos;école, au collège, au lycée
                   </span>
                 </li>
                 <li>
@@ -80,19 +79,19 @@ export default async function HomePage() {
               </div>
               <div className="group bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border-l-4 border-blue-400">
                 <p className="text-gray-800 font-sans text-lg">
-                  Votre enfant ne réussit pas ses évaluations alors qu'il/elle a
-                  appris(e) ses leçons?
+                  Votre enfant ne réussit pas ses évaluations alors
+                  qu&apos;il/elle a appris(e) ses leçons?
                 </p>
               </div>
               <div className="group bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border-l-4 border-blue-400">
                 <p className="text-gray-800 font-sans text-lg">
-                  Votre enfant a besoin d'un « petit coup de pouce » dans ses
-                  apprentissages ?
+                  Votre enfant a besoin d&apos;un « petit coup de pouce » dans
+                  ses apprentissages ?
                 </p>
               </div>
               <div className="group bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border-l-4 border-blue-400">
                 <p className="text-gray-800 font-sans text-lg">
-                  Votre enfant n'arrive pas à gérer ses émotions ?
+                  Votre enfant n&apos;arrive pas à gérer ses émotions ?
                 </p>
               </div>
               <div className="group bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border-l-4 border-blue-400">
@@ -103,7 +102,8 @@ export default async function HomePage() {
               </div>
               <div className="group bg-white p-5 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border-l-4 border-blue-400">
                 <p className="text-gray-800 font-sans text-lg">
-                  Vous êtes en quête d'informations pour aider votre enfant ?
+                  Vous êtes en quête d&apos;informations pour aider votre enfant
+                  ?
                 </p>
               </div>
             </div>
@@ -140,37 +140,37 @@ export default async function HomePage() {
         {/* What is Orthopedagogy Section */}
         <section className="mb-16">
           <Heading tag={HeadingTag.H2}>
-            Qu'est-ce que l'orthopédagogie ?
+            Qu&apos;est-ce que l&apos;orthopédagogie ?
           </Heading>
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
             <div className="text-lg leading-relaxed text-gray-700">
               <p className="mb-8 italic border-l-4 border-blue-300 pl-4">
-                L'orthopédagogie est « la science de l'éducation dont l'objet
-                est l'évaluation et l'intervention relatives aux apprenants
-                susceptibles de présenter ou présentant des difficultés
-                d'apprentissage scolaire, incluant les troubles d'apprentissage
-                »
+                L&apos;orthopédagogie est « la science de l&apos;éducation dont
+                l&apos;objet est l&apos;évaluation et l&apos;intervention
+                relatives aux apprenants susceptibles de présenter ou présentant
+                des difficultés d&apos;apprentissage scolaire, incluant les
+                troubles d&apos;apprentissage »
                 <span className="text-sm text-gray-500 block mt-2">
-                  (source : L'ADOQ)
+                  (source : L&apos;ADOQ)
                 </span>
               </p>
             </div>
 
             <div className="my-12 p-12 bg-gradient-to-r from-blue-50 to-indigo-100 rounded-lg border border-blue-100 text-center font-sans">
               <div className="p-4 border-2 rounded-md bg-blue-600 text-white text-xl font-bold">
-                1. L'évaluation
+                1. L&apos;évaluation
               </div>
               <div className="flex justify-center my-2">
                 <Arrow />
               </div>
               <div className="p-4 border-2 border-blue-200 rounded-md bg-white mb-8">
                 <ul className="text-left list-disc pl-4 mt-2">
-                  <li>Entretien et séances d'observation</li>
-                  <li>Portrait exécutif et pédagogique de l'apprenant</li>
+                  <li>Entretien et séances d&apos;observation</li>
+                  <li>Portrait exécutif et pédagogique de l&apos;apprenant</li>
                 </ul>
               </div>
               <div className="p-4 border-2 rounded-md bg-blue-600 text-white text-xl font-bold">
-                2. L'intervention
+                2. L&apos;intervention
               </div>
               <div className="flex gap-4">
                 <div className="w-1/2">
@@ -186,7 +186,7 @@ export default async function HomePage() {
                         mémoriser, transférer les apprentissages, être plus
                         attentif…
                       </li>
-                      <li>J'apprends à réguler mes émotions</li>
+                      <li>J&apos;apprends à réguler mes émotions</li>
                     </ul>
                   </div>
                 </div>
@@ -197,7 +197,7 @@ export default async function HomePage() {
                   <div className="p-4 border-2 border-blue-200 rounded-md bg-white">
                     <ul className="text-left list-disc pl-4 mt-2">
                       <li>Transfert aux apprentissages scolaires</li>
-                      <li>Gestes d'explicitation</li>
+                      <li>Gestes d&apos;explicitation</li>
                       <li>Métacognition</li>
                       <li>Pédagogie par le jeu</li>
                     </ul>
@@ -208,16 +208,17 @@ export default async function HomePage() {
 
             <div className="space-y-4 text-lg leading-relaxed text-gray-700">
               <p>
-                L'orthopédagogie est une pratique pédagogique personnalisée. En
-                pleine émergence en France, elle a déjà fait ses preuves
-                ailleurs dans le monde entre autres au Canada et en Belgique.
+                L&apos;orthopédagogie est une pratique pédagogique
+                personnalisée. En pleine émergence en France, elle a déjà fait
+                ses preuves ailleurs dans le monde entre autres au Canada et en
+                Belgique.
               </p>
               <p>
-                Elle s'inscrit dans un cadre de référence scientifique (Sciences
-                de l'Education, les neurosciences, la psychologie du
-                développement) et pédagogique (enseignement explicite et gestes
-                d'explicitation, écoute active, gestion mentale, renforcement
-                positif, pédagogie par le jeu).
+                Elle s&apos;inscrit dans un cadre de référence scientifique
+                (Sciences de l&apos;Education, les neurosciences, la psychologie
+                du développement) et pédagogique (enseignement explicite et
+                gestes d&apos;explicitation, écoute active, gestion mentale,
+                renforcement positif, pédagogie par le jeu).
               </p>
             </div>
           </div>
@@ -225,7 +226,7 @@ export default async function HomePage() {
 
         {/* Orthopedagogue Section */}
         <section className="mb-16">
-          <Heading tag={HeadingTag.H2}>L'orthopédagogue</Heading>
+          <Heading tag={HeadingTag.H2}>L&apos;orthopédagogue</Heading>
           <div className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
             <div className="p-8">
               <div className="">
@@ -245,24 +246,25 @@ export default async function HomePage() {
                 <div className="space-y-4 text-lg leading-relaxed text-gray-700">
                   <p>
                     Un orthopédagogue est donc un spécialiste des processus
-                    d'apprentissage et du développement cognitif. Il intervient
-                    pour identifier les difficultés, concevoir des stratégies
-                    d'intervention personnalisées et soutenir le développement
-                    des compétences scolaires.
+                    d&apos;apprentissage et du développement cognitif. Il
+                    intervient pour identifier les difficultés, concevoir des
+                    stratégies d&apos;intervention personnalisées et soutenir le
+                    développement des compétences scolaires.
                   </p>
                   <p>
-                    Sa mission s'articule autour de la prévention, l'évaluation
-                    et la remédiation aux difficultés d'apprentissage.
+                    Sa mission s&apos;articule autour de la prévention,
+                    l&apos;évaluation et la remédiation aux difficultés
+                    d&apos;apprentissage.
                   </p>
                   <p>
-                    Il est pédagogue avant tout et place l'humain au cœur du
-                    suivi.
+                    Il est pédagogue avant tout et place l&apos;humain au cœur
+                    du suivi.
                   </p>
-                  <p>Il n'est pas un professionnel de santé.</p>
+                  <p>Il n&apos;est pas un professionnel de santé.</p>
                   <p>
                     Il travaille main dans la main avec les parents en les
-                    informant et en les guidant dans l'utilisation d'outils
-                    appropriés aux besoins de leur enfant.
+                    informant et en les guidant dans l&apos;utilisation
+                    d&apos;outils appropriés aux besoins de leur enfant.
                   </p>
                 </div>
               </div>

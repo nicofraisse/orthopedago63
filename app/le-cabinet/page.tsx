@@ -1,9 +1,7 @@
-import { Avatar } from "@/components/avatar";
 import Heading, { HeadingTag } from "@/components/heading";
-import { getMarkdownContent } from "@/lib/markdown";
 import Image from "next/image";
 import Link from "next/link";
-import { Check, Phone, Mail, Calendar } from "react-feather";
+import { Check, Phone, Calendar } from "react-feather";
 
 export default async function CabinetPage() {
   return (
@@ -16,20 +14,21 @@ export default async function CabinetPage() {
             <div className="mb-8">
               <div className=" space-y-4 text-lg leading-relaxed text-gray-700">
                 <p>
-                  Je m'appelle Maryline Cailly-Moins. Enseignante et formatrice
-                  depuis plusieurs années, je suis passionnée en pédagogie et en
-                  didactique des apprentissages.
+                  Je m&apos;appelle Maryline Cailly-Moins. Enseignante et
+                  formatrice depuis plusieurs années, je suis passionnée en
+                  pédagogie et en didactique des apprentissages.
                 </p>
                 <p>
-                  Certifiée en Master 2 Sciences de l'Education et en
-                  Orthopédagogie, j'accompagne les enfants, les adolescents, les
-                  étudiants en leur permettant de trouver et d'acquérir des
-                  stratégies d'apprentissage conscientes et transférables, de
-                  stimuler leur volonté et le désir d'apprendre.
+                  Certifiée en Master 2 Sciences de l&apos;Education et en
+                  Orthopédagogie, j&apos;accompagne les enfants, les
+                  adolescents, les étudiants en leur permettant de trouver et
+                  d&apos;acquérir des stratégies d&apos;apprentissage
+                  conscientes et transférables, de stimuler leur volonté et le
+                  désir d&apos;apprendre.
                 </p>
                 <p className="font-semibold text-blue-600">
                   Ma priorité est de vous accompagner sur le chemin de la
-                  réussite et de l'estime de soi.
+                  réussite et de l&apos;estime de soi.
                 </p>
                 <Image
                   src="/uploads/maryline1.jpeg"
@@ -47,9 +46,9 @@ export default async function CabinetPage() {
           </div>
         </section>
 
-        {/* Quels outils j'utilise Section */}
+        {/* Quels outils j&apos;utilise Section */}
         <section className="mb-16">
-          <Heading tag={HeadingTag.H2}>Quels outils j'utilise ?</Heading>
+          <Heading tag={HeadingTag.H2}>Quels outils j&apos;utilise ?</Heading>
           <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="group bg-gradient-to-r from-blue-50 to-indigo-100 p-5 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border-l-4 border-blue-400">
@@ -166,11 +165,11 @@ export default async function CabinetPage() {
                       className="text-blue-500 mr-3 mt-1 flex-shrink-0"
                     />
                     <p>
-                      Un échange avec l'apprenant et ses parents pour un recueil
-                      d'informations complémentaires : les besoins et les
-                      motivations, les difficultés rencontrées, le contexte,
-                      d'environ 1heure. Présentation du « process »
-                      orthopédagogique.
+                      Un échange avec l&apos;apprenant et ses parents pour un
+                      recueil d&apos;informations complémentaires : les besoins
+                      et les motivations, les difficultés rencontrées, le
+                      contexte, d&apos;environ 1heure. Présentation du « process
+                      » orthopédagogique.
                     </p>
                   </li>
                 </ul>
@@ -187,10 +186,11 @@ export default async function CabinetPage() {
               </div>
               <div className="p-6 text-left">
                 <p>
-                  Séances d'observation permettant de rencontrer la personne et
-                  d'établir son portrait d'apprenant (identification du
-                  comportement exécutif, du fonctionnement cognitif, les
-                  préférences d'apprentissage, les forces et les défis).
+                  Séances d&apos;observation permettant de rencontrer la
+                  personne et d&apos;établir son portrait d&apos;apprenant
+                  (identification du comportement exécutif, du fonctionnement
+                  cognitif, les préférences d&apos;apprentissage, les forces et
+                  les défis).
                 </p>
               </div>
             </div>
@@ -205,9 +205,9 @@ export default async function CabinetPage() {
               </div>
               <div className="p-6 text-left">
                 <p>
-                  Proposition d'un programme d'intervention orthopédagogique
-                  personnalisé et articulation d'objectifs ciblés et
-                  prioritaires
+                  Proposition d&apos;un programme d&apos;intervention
+                  orthopédagogique personnalisé et articulation d&apos;objectifs
+                  ciblés et prioritaires
                 </p>
               </div>
             </div>
