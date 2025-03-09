@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Dream for outside people - the person I would love to be if I were better.
+65kg, visibly a little thicker
+Calm
+wise
+Good communicators of ideas
+Inquisitory, ask questions to understand others
+Knows a few things
+Well immersed in technology - knows really how stuff works and follows the latest trends with good contextualization
+Multi talented - music , piano, sports, communication, visual arts.
 
-## Getting Started
 
-First, run the development server:
+My honest instinctive thoughts about stuff.
+I donnt feel like i need mentorship. not  that I know stuff but i get my mentorship by becoming interested in topics and having the potential honestly of asking the rigth questions to people, and mini mentorship session can happen from different people on differnt topics. But i am an independant thinkiner at my core, although it is hard sometimes to make this fructuate. because either im tired so i actually dont think very deeply during some phases, or/and i am afraid to be more authentic, or its also hard for me to show authenticity when I do not have much verbal eloquence.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Reading could be a thing, and also let's maybe leverage llms a bit more. I'm sometimes maybe a bit vague in my sstuff, like , what even do i mean by becomeing more wise aknow a few things? what htings do i want to know? do i really wanna re study everything? do i actually care? At my core, in my most basic present moment even with a flawed and tired mind, what do i care about at htis instant? Right now i care abotu what i am doing which is writing on this awesome new keyboard. I care a b out that for sure. What else? Well, im yawning, so i care about maybe going to sleep with lots of piece of mind, althoug im abit anxious this wont woork as it tis still early. What else? Currently i am still, and my mind is relaxed, i could actually read a book maybe, i could get interestin in aniuything .right now i dont really care about music. depends oin the moment i guess. Ok. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+States
+Sometimes im lie "BRO I WISH I COULD JUST FEEL BETTER RIGHT NOW AND PUSH A BUTTON AND GET GOING AND DO STUFF AND BE IN A BETTER MOOD". but when i examing the hypoterhical process of pressing such button i almost feel like i wouldnt truely want to press it. Becausefor example (granted its slightllyu moore effort than pushing a button), i know some basicaprocessers that can get me back on my feet when im in this state. For example, pbreathe 5 minutes, stretch 5mn, clkenm workspace 5mn, meditate 5mn. and then my mind is usually better. But itsalmost like   i wnat  to stay in ithat shitty state for a bit. i would rather grab my phone, or contemplate my sadness than push that easy button. its weird no? so theres maybe 2  options. 1. donttake action adn stay in my state of hopelesnesss for a bit, 2.  forrce myself to push the button, hate that moment of pressing it, but once its pressed, new me. and this is weird, because then the new me almost clings to continuoing the past chapter of sadness that was interrrypted.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

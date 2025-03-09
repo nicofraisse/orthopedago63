@@ -11,7 +11,7 @@ export const Header = async () => {
   const { logo } = frontmatter;
 
   return (
-    <header className="flex justify-center items-center py-4 px-8 bg-slate-100 sticky top-0 shadow-sm">
+    <header className="flex justify-center items-center py-4 px-8 bg-white sticky top-0 shadow-sm z-20">
       <div className="flex justify-between items-center space-x-4 w-full max-w-3xl">
         <nav>
           <Link href="/">
@@ -26,7 +26,7 @@ export const Header = async () => {
         </nav>
         <nav className="flex space-x-7">
           <Link href="/orthopedagogie">L&apos;orthopédagogie</Link>
-          <Link href="/le-cabinet">Le cabinet</Link>
+          <Link href="/le-cabinet">Qui suis-je ?</Link>
           <Link href="/contact">Contact</Link>
         </nav>
       </div>
