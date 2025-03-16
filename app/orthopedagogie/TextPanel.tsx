@@ -53,7 +53,7 @@ export const TextPanel = ({
     <div
       className={`group ${backgroundClass} p-5 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border-l-4 ${borderClass} ${className}`}
     >
-      <p className="text-gray-800 font-sans text-lg">{children}</p>
+      <div className="text-gray-800 font-sans text-lg">{children}</div>
     </div>
   );
 };
