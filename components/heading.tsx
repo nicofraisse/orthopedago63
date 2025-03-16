@@ -9,18 +9,54 @@ export enum HeadingTag {
   H6 = "h6",
 }
 
+export enum UnderlineColor {
+  Blue = "blue",
+  BlueDark = "blueDark",
+  Green = "green",
+  GreenDark = "greenDark",
+  Lime = "lime",
+  LimeDark = "limeDark",
+  Yellow = "yellow",
+  YellowDark = "yellowDark",
+  Amber = "amber",
+  AmberDark = "amberDark",
+  Pink = "pink",
+  PinkDark = "pinkDark",
+  Rose = "rose",
+  RoseDark = "roseDark",
+}
+
+const underlineColorMap = {
+  [UnderlineColor.Blue]: "rgba(191, 219, 254, 0.8)", // blue-200 equivalent
+  // Validé pour titres: GreenDark, PinkDark
+  [UnderlineColor.Green]: "rgba(187, 247, 208, 0.8)", // green-200 equivalent
+  [UnderlineColor.Lime]: "rgba(217, 249, 157, 0.8)", // lime-200 equivalent
+  [UnderlineColor.Yellow]: "rgba(254, 240, 138, 0.8)", // yellow-200 equivalent
+  [UnderlineColor.Amber]: "rgba(253, 230, 138, 0.8)", // amber-200 equivalent
+  [UnderlineColor.Pink]: "rgba(251, 207, 232, 0.8)", // pink-200 equivalent
+  [UnderlineColor.Rose]: "rgba(254, 205, 211, 0.8)", // rose-200 equivalent
+
+  [UnderlineColor.BlueDark]: "rgba(147, 197, 253, 0.8)", // blue-300 equivalent
+  [UnderlineColor.GreenDark]: "rgba(134, 239, 172, 0.8)", // green-300 equivalent
+  [UnderlineColor.LimeDark]: "rgba(190, 242, 100, 0.8)", // lime-300 equivalent
+  [UnderlineColor.YellowDark]: "rgba(253, 224, 71, 0.8)", // yellow-300 equivalent
+  [UnderlineColor.AmberDark]: "rgba(252, 211, 77, 0.8)", // amber-300 equivalent
+  [UnderlineColor.PinkDark]: "rgba(249, 168, 212, 0.8)", // pink-300 equivalent
+  [UnderlineColor.RoseDark]: "rgba(253, 164, 175, 0.8)", // rose-300 equivalent
+};
+
 type HeadingProps = {
   children: React.ReactNode;
   tag?: HeadingTag;
   underline?: boolean;
-  underlineColor?: string;
+  underlineColor?: UnderlineColor;
 };
 
 export const Heading = ({
   children,
   tag = HeadingTag.H1,
   underline = true,
-  underlineColor = "bg-blue-200",
+  underlineColor = UnderlineColor.GreenDark,
 }: HeadingProps) => {
   const baseStyles = "font-bold text-gray-800";
 
@@ -62,6 +98,10 @@ export const Heading = ({
     }
   };
 
+  const getUnderlineColor = () => {
+    return underlineColorMap[underlineColor] || underlineColor;
+  };
+
   const headingClass = `${baseStyles} ${getSizeClass()}`;
   const wrapperClass = getMarginClass();
 
@@ -72,11 +112,7 @@ export const Heading = ({
       style: underline
         ? {
             display: "inline",
-            backgroundImage: `linear-gradient(to right, ${
-              underlineColor.includes("bg-")
-                ? getColorFromClass(underlineColor)
-                : underlineColor
-            } 100%, transparent 0%)`,
+            backgroundImage: `linear-gradient(to right, ${getUnderlineColor()} 100%, transparent 0%)`,
             backgroundPosition: "0 95%",
             backgroundSize: "100% 0.4em",
             backgroundRepeat: "no-repeat",
@@ -91,20 +127,3 @@ export const Heading = ({
 
   return <div className={wrapperClass}>{headingElement}</div>;
 };
-
-function getColorFromClass(colorClass: string): string {
-  const colorMap: Record<string, string> = {
-    "bg-blue-200": "rgba(191, 219, 254, 0.7)",
-    "bg-blue-300": "rgba(147, 197, 253, 0.7)",
-    "bg-blue-400": "rgba(96, 165, 250, 0.7)",
-    "bg-green-200": "rgba(187, 247, 208, 0.7)",
-    "bg-red-200": "rgba(254, 202, 202, 0.7)",
-    "bg-yellow-200": "rgba(254, 240, 138, 0.7)",
-    "bg-purple-200": "rgba(233, 213, 255, 0.7)",
-    "bg-gray-200": "rgba(229, 231, 235, 0.7)",
-  };
-
-  return colorMap[colorClass] || "rgba(191, 219, 254, 0.7)";
-}
-
-export default Heading;

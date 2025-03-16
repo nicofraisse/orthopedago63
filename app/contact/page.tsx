@@ -1,7 +1,8 @@
 import { getMarkdownContent } from "@/lib/markdown";
 import Image from "next/image";
-import Heading, { HeadingTag } from "@/components/heading";
+import { Heading, HeadingTag } from "@/components/Heading";
 import { Mail, Phone, User, MessageSquare } from "react-feather";
+import { Button } from "@/components/Button";
 
 export default async function ContactPage() {
   const { contentHtml } = await getMarkdownContent("content/pages/contact.md");
@@ -42,13 +43,13 @@ export default async function ContactPage() {
                   </label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                      <User size={18} className="text-blue-500" />
+                      <User size={18} className="text-pink-500" />
                     </div>
                     <input
                       type="text"
                       id="name"
                       name="name"
-                      className="border border-gray-300 rounded-lg py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
+                      className="border border-gray-300 rounded-lg py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-pink-200 focus:border-transparent"
                       placeholder="Prénom et Nom"
                     />
                   </div>
@@ -63,13 +64,13 @@ export default async function ContactPage() {
                   </label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                      <Mail size={18} className="text-blue-500" />
+                      <Mail size={18} className="text-pink-500" />
                     </div>
                     <input
                       type="email"
                       id="email"
                       name="email"
-                      className="border border-gray-300 rounded-lg py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
+                      className="border border-gray-300 rounded-lg py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-pink-200 focus:border-transparent"
                       placeholder="exemple@email.com"
                     />
                   </div>
@@ -84,13 +85,13 @@ export default async function ContactPage() {
                   </label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                      <Phone size={18} className="text-blue-500" />
+                      <Phone size={18} className="text-pink-500" />
                     </div>
                     <input
                       type="tel"
                       id="phone"
                       name="phone"
-                      className="border border-gray-300 rounded-lg py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
+                      className="border border-gray-300 rounded-lg py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-pink-200 focus:border-transparent"
                       placeholder="06 12 34 56 78"
                     />
                   </div>
@@ -107,38 +108,26 @@ export default async function ContactPage() {
                     <div className="absolute top-3 left-3 pointer-events-none">
                       <MessageSquare
                         size={18}
-                        className="text-blue-500 relative top-1"
+                        className="text-pink-500 relative top-1"
                       />
                     </div>
                     <textarea
                       id="message"
                       name="message"
                       rows={5}
-                      className="border border-gray-300 rounded-lg py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
+                      className="border border-gray-300 rounded-lg py-3 px-4 pl-10 w-full focus:outline-none focus:ring-2 focus:ring-pink-200 focus:border-transparent"
                       placeholder="Décrivez votre demande ou vos questions..."
                     ></textarea>
                   </div>
                 </div>
 
                 <div className="flex justify-center">
-                  <button
-                    type="submit"
-                    className="inline-flex items-center justify-center px-8 py-4 font-sans font-semibold tracking-wide text-white bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50"
+                  <Button
+                    gradientFrom="from-teal-500"
+                    gradientTo="to-emerald-600"
                   >
-                    <span>Envoyer</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 ml-2"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </button>
+                    Envoyer
+                  </Button>
                 </div>
               </form>
             </div>

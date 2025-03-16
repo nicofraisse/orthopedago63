@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export const Header = async () => {
+export const Navbar = async () => {
   const { frontmatter } = await getMarkdownContent(
     "content/components/header.md"
   );
